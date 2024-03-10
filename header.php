@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The header for our theme
  *
@@ -47,4 +48,61 @@
 				<?php
 				echo do_shortcode('[smartslider3 slider="2"]');
 				?>
-		</div>
+			</div>
+			<section class="container-fluid container-background">
+				<div class="__os-container__">
+					<div class="aso-content">
+						<div class="aso-content-header">
+							<h2>Каталог бежецких компрессоров</h2>
+						</div>
+						<div class="row group_items">
+							<div class="col-md-6">
+								<a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
+									<div class="group_item_name">
+										Поршневые компрессоры
+										<p>Удобный, доступный и простой источник сжатого воздуха для циклических работ</p>
+									</div>
+									<div class="group_item_short-desc"></div>
+									<div class="group_item_image">
+										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/porsh2.png">
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6">
+								<a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
+									<div class="group_item_name">
+										Поршневые компрессоры
+										<p>Удобный, доступный и простой источник сжатого воздуха для циклических работ</p>
+									</div>
+									<div class="group_item_short-desc"></div>
+									<div class="group_item_image">
+										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/porsh2.png">
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6">
+								<a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
+									<div class="group_item_name">
+										Поршневые компрессоры
+										<p>Удобный, доступный и простой источник сжатого воздуха для циклических работ</p>
+									</div>
+									<div class="group_item_short-desc"></div>
+									<div class="group_item_image">
+										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/porsh2.png">
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6"><a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
+									<div class="group_item_name">
+										Поршневые компрессоры
+										<p>Удобный, доступный и простой источник сжатого воздуха для циклических работ</p>
+									</div>
+									<div class="group_item_short-desc"></div>
+									<div class="group_item_image">
+										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/porsh2.png">
+									</div>
+								</a></div>
+						</div>
+					</div>
+				</div>
+			</section>

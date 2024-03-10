@@ -146,6 +146,38 @@ button {
 
 /*----  Styles Slider-Top End ----*/
 
+/*----  Styles Catalog-Home Start ----*/
+
+.container-background {
+  background-color: #f2f2f2;
+}
+
+.group_items {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  text-align: center;
+}
+
+a.group_item {
+  background: #e6e6e6 url(/wp-content/themes/aco-child/src/img/fon_buttom.jpg) repeat center;
+  z-index: 999;
+  background-size: cover;
+  text-decoration: none;
+  border: 2px solid #000000;
+  padding: 35px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  line-height: 1;
+  transition: 500ms;
+}
+
+/*----  Styles Catalog-Home End ----*/
+
 /*----  Styles Footer Start ----*/
 
 .elementor-element.elementor-element-e154479 {
