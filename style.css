@@ -1,0 +1,388 @@
+/*
+Theme Name:     Orchid-store-child   
+Description:    Дочерняя тема для темы Orchid-store
+Author:         Лаптев Александр
+Author URI:     https://text-top.ru/
+Template:       orchid-store
+Version:        0.1.0
+*/
+
+/*----  Styles Header  Start ----*/
+
+.header-style-1 {
+  margin: 0;
+}
+
+.header-style-1 .mid-header .os-row,
+.header-style-1 .top-header .os-row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: flex-start;
+}
+
+.site-branding {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.site-logo img {
+  max-width: inherit;
+  vertical-align: baseline;
+}
+
+.logo_block_text_pro {
+  margin-left: 30px;
+  font-family: "Calibri", sans-serif;
+  font-size: 1.3em;
+  line-height: 1;
+}
+
+.logo_block_text {
+  padding-top: 0.1em;
+  margin-right: 60px;
+  color: #0e1e58;
+  font-family: "Calibri", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.header-style-1 .aside-right {
+  height: 100%;
+  align-content: space-between;
+}
+
+.header_contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-style-1 .mid-header .no-wishlist-icon.no-mini-cart .custom-search {
+  flex: 0 0 100%;
+}
+
+.header-style-1 .custom-search-entry,
+.header-style-1 .custom-search-entry {
+  border-color: #17191a;
+}
+
+.header-style-1 .custom-search-entry input {
+  height: 30px;
+}
+
+.header-style-1 .custom-search-entry button {
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  line-height: 33px;
+  height: 8px;
+  width: 18px;
+  margin-right: 15px;
+}
+
+button {
+  background-color: #fff !important;
+}
+
+.bx {
+  color: #000000;
+}
+
+.mail_a {
+  color: #000000;
+  margin-left: 5px;
+}
+
+.pone_class {
+  color: #000000;
+  margin-left: 5px;
+}
+
+.fa-stack {
+  width: 1.7em;
+}
+
+.fa {
+  border: 1px #000 solid;
+  padding: 8px 10px;
+  border-radius: 18px;
+}
+
+/*----  Styles Header  End ----*/
+
+/*----  Styles Top Menu  Start ----*/
+
+.main-navigation {
+  background-color: #fff;
+  border-bottom: 3px solid #0e1e58;
+}
+
+.site-navigation > ul > li > a {
+  font-family: "Calibri", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+}
+
+.site-navigation > ul > li > a:hover {
+  color: #008bf4;
+}
+
+/*----  Styles Top Menu  End ----*/
+
+#content {
+  background-color: #fff;
+  padding-top: 7px;
+}
+
+/*----  Styles Slider-Top Start ----*/
+
+.slider-top {
+  background-image: url("https://asobezh-msk.ru/wp-content/themes/aco-child/src/img/slider/background-banner-2023.jpg");
+  background-repeat: no-repeat;
+}
+
+/*----  Styles Slider-Top End ----*/
+
+/*----  Styles Footer Start ----*/
+
+.elementor-element.elementor-element-e154479 {
+  display: inline;
+}
+
+.footer {
+  background: #ffffff;
+}
+
+.footer-contact-form {
+  background-color: #b2afbc;
+  padding: 60px 0 60px 0;
+}
+
+.form {
+  width: 100%;
+  max-width: 962px;
+  display: flex;
+}
+
+.form > * {
+  margin-right: 25px;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.form-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.contact-form_header {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-form_headline {
+  color: #0e1e58;
+  /* font-family: "calibriBold", sans-serif; */
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.contact-form_sub-headline {
+  color: #0e1e58;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.contact-form_sub-headline:before,
+.contact-form_sub-headline:after {
+  content: " ";
+  width: 1.5em;
+  height: 2px;
+  background-color: #0e1e58;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 9px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.5rem !important;
+  line-height: 1.5;
+  color: #ced4da !important;
+  background-color: #f2f1f5 !important;
+  background-clip: padding-box;
+  border: 0 solid #ced4da;
+  border-radius: 0 !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input.form-control {
+  height: 50px;
+  line-height: 50px;
+}
+
+input[type="text"] {
+  border: 0;
+  border-radius: 0;
+}
+
+textarea.form-control--two-inputs,
+textarea.form-control--2-inputs {
+  line-height: 1;
+  height: 97px;
+}
+
+.contact-form_button {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  text-decoration: none;
+  font-family: "Calibri", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  width: 190px;
+  height: 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contact-form_button .button-body {
+  flex: 1 1 100%;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.15s, border 0.15s;
+  justify-content: center;
+  border: 1px solid #008bf4;
+  background-color: #008bf4;
+}
+
+.contact-form_button .button-icon {
+  flex: 0 0 50px;
+  width: 50px;
+  line-height: 49px;
+  height: 50px;
+  background-color: #0e1e58;
+  color: #ffffff;
+  text-align: center;
+  transition: background-color 0.15s, color 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-circle-thin {
+  font-size: 40px !important;
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+  border: none;
+}
+
+.fa-angle-double-right {
+  position: relative;
+  bottom: 56px;
+  /* right: 5px; */
+  border: none;
+}
+
+.footer_copyright {
+  border-top: 1px solid #0e1e58;
+  padding: 25px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.footer_copyright p {
+  font-family: "Myriad Pro", sans-serif;
+  color: #0e1e58 !important;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.footer-bottom .os-col {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.footer_menu_center {
+  display: flex;
+}
+
+.footer-entry {
+  margin-top: 40px;
+}
+
+.footer_center {
+  display: flex;
+  justify-content: end;
+}
+
+.footer_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.row-footer {
+  align-items: center;
+}
+
+.fa-footer {
+  border: 1px #000 solid;
+  padding: 7px 8px;
+  border-radius: 18px;
+}
+
+.footer_contact_link {
+  margin-bottom: 8px;
+}
+
+.fa-stack-pone {
+  margin-right: 16px;
+}
+
+.footer a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer a:hover {
+  color: #3d8095;
+}
+
+.footer_list_item p {
+  margin-bottom: 5px;
+}
+
+/*----  Styles Footer End ----*/
