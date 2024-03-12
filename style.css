@@ -185,14 +185,14 @@ button {
 }
 
 .group_item_name {
-  font-size: 29px;
+  font-size: 26px;
   font-weight: 600;
   text-transform: uppercase;
   text-align: left;
 }
 
 .group_item_name p {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   color: #0071d7;
   text-transform: none;
@@ -225,7 +225,6 @@ a.group_anime::before {
   z-index: 1;
   left: -45%;
   content: "";
-  /* background: url(/wp-content/themes/aco-child/src/img/bacg_knopki.jpg); */
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .3) 100%);
   transform: skewX(-25deg);
   opacity: 0;
@@ -234,11 +233,99 @@ a.group_anime::before {
 }
 
 a.group_anime:hover::before {
-  animation: slide 0.3s;
+  animation: slide 0.3s !important;
   opacity: 1;
 }
 
+.group_item_image {
+  max-width: 213px;
+  max-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group_item_image img {
+  max-width: 213px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+  transition: 150ms;
+}
+
 /*----  Styles Catalog-Home End ----*/
+
+/*----  Styles Аdvantages-Home Start ----*/
+
+.advantage_headline {
+  color: #0e1e58;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  padding: 20px;
+  background: #e5e5e5 url(/wp-content/themes/aco/src/img/photo5.png) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.advantage--1 {
+  background-color: #e5e5e5;
+}
+
+.advantage--2 {
+  background-color: #e9e9e9;
+}
+
+.advantage--3 {
+  background-color: #f0f0f0;
+}
+
+.advantage--4 {
+  background-color: #f3f3f3;
+}
+
+.advantage_image {
+  margin-bottom: 10px;
+}
+
+
+.advantage_heading {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.advantage_text {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.benefits_text {
+  margin-top: 20px !important;
+  margin-left: 15px;
+}
+
+.benefits_text p {
+  font-size: 16px;
+}
+
+/*----  Styles Аdvantages-Home End ----*/
 
 /*----  Styles Footer Start ----*/
 

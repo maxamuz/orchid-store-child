@@ -71,37 +71,84 @@
 							<div class="col-md-6">
 								<a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
 									<div class="group_item_name">
-										Поршневые компрессоры
-										<p>Удобный, доступный и простой источник сжатого воздуха для циклических работ</p>
+										Винтовые компрессоры
+										<p>Надежные установки для производства воздуха в промышленных масштабах</p>
 									</div>
 									<div class="group_item_short-desc"></div>
 									<div class="group_item_image">
-										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/porsh2.png">
+										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/vint2.png">
 									</div>
 								</a>
 							</div>
 							<div class="col-md-6">
 								<a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
 									<div class="group_item_name">
-										Поршневые компрессоры
-										<p>Удобный, доступный и простой источник сжатого воздуха для циклических работ</p>
+										Подготовка воздуха
+										<p>Проверенные и эффективные системы осушки, очистки и хранения сжатого воздуха</p>
 									</div>
 									<div class="group_item_short-desc"></div>
 									<div class="group_item_image">
-										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/porsh2.png">
+										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/resiver2.png">
 									</div>
 								</a>
 							</div>
 							<div class="col-md-6"><a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
 									<div class="group_item_name">
-										Поршневые компрессоры
-										<p>Удобный, доступный и простой источник сжатого воздуха для циклических работ</p>
+										Пескоструйное оборудование
+										<p>Оптимальные и выгодные решения для очистки поверхностей любой площади</p>
 									</div>
 									<div class="group_item_short-desc"></div>
 									<div class="group_item_image">
-										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/porsh2.png">
+										<img src="/wp-content/themes/aco-child/src/img/cats-on-main/peskostruika2.png">
 									</div>
 								</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="container-fluid container-advantages">
+				<div class="__os-container__">
+					<div class="aso-content-header">
+						<h2>Бежецкий заод АСО и его преимущества</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-4 advantage_headline">НАШЕ ГЛАВНОЕ ПРЕИМУЩЕСТВО - ВЕКОВЫЕ ТРАДИЦИИ КАЧЕСТВА!</div>
+						<div class="col-md-2 advantage advantage--1">
+							<div class="advantage_image">
+								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+							</div>
+							<p class="advantage_heading">Бюджетное</p>
+							<p class="advantage_text"> ценообразование</p>
+						</div>
+						<div class="col-md-2 advantage advantage--2">
+							<div class="advantage_image">
+								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+							</div>
+							<p class="advantage_heading">Бюджетное</p>
+							<p class="advantage_text"> ценообразование</p>
+						</div>
+						<div class="col-md-2 advantage advantage--3">
+							<div class="advantage_image">
+								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+							</div>
+							<p class="advantage_heading">Бюджетное</p>
+							<p class="advantage_text"> ценообразование</p>
+						</div>
+						<div class="col-md-2 advantage advantage--4">
+							<div class="advantage_image">
+								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+							</div>
+							<p class="advantage_heading">Бюджетное</p>
+							<p class="advantage_text"> ценообразование</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="benefits_text">
+							<p>
+								История Бежецкого завода "АСО" берет свое начало с сентября 1917 года. В 2017 году заводчане отметили юбилей завода — 100-летие со дня основания. А свой первый компрессор завод выпустил более 85 лет назад в 1932 году. Все это время мы ведем постоянную работу над улучшением нашей продукции, внедряем новые технологические процессы, модернизируем станочный парк, разрабатываем новые энергоэффективные модели компрессоров.</p>
+							<p>
+								Мы понимаем важность качества и стабильности работы оборудования, поэтому ни один компрессор не уходит с завода без индивидуальной проверки. Репутация нашего завода основана на надежности и качестве продукции, работающей в различных областях промышленности. Успех, в первую очередь, обусловлен собственной инженерно-проектной базой и безукоризненными стандартами контроля производства. А словосочетание “Бежецкий компрессор”, является синонимом качества и надежности.
+							</p>
 						</div>
 					</div>
 				</div>
