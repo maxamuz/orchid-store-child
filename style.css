@@ -168,13 +168,13 @@ button {
 }
 
 .aso-content-header h2::after {
-  content: '';
+  content: "";
   top: 38px;
   left: 35px;
   position: absolute;
   width: 77px;
   height: 4px;
-  background-color: #008bf4
+  background-color: #008bf4;
 }
 
 .group_items {
@@ -200,7 +200,8 @@ button {
 }
 
 a.group_item {
-  background: #e6e6e6 url(/wp-content/themes/aco-child/src/img/fon_buttom.jpg) repeat center;
+  background: #e6e6e6 url(/wp-content/themes/aco-child/src/img/fon_buttom.jpg)
+    repeat center;
   z-index: 999;
   background-size: cover;
   text-decoration: none;
@@ -225,7 +226,11 @@ a.group_anime::before {
   z-index: 1;
   left: -45%;
   content: "";
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .3) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 0.3) 100%
+  );
   transform: skewX(-25deg);
   opacity: 0;
   width: 25%;
@@ -257,6 +262,14 @@ a.group_anime:hover::before {
 
 /*----  Styles Аdvantages-Home Start ----*/
 
+.container-advantages {
+  margin-top: 30px;
+}
+
+.aso-content-header {
+  margin-bottom: 30px;
+}
+
 .advantage_headline {
   color: #0e1e58;
   font-size: 28px;
@@ -264,7 +277,8 @@ a.group_anime:hover::before {
   line-height: 1;
   text-transform: uppercase;
   padding: 20px;
-  background: #e5e5e5 url(/wp-content/themes/aco/src/img/photo5.png) center no-repeat;
+  background: #e5e5e5 url(/wp-content/themes/aco/src/img/photo5.png) center
+    no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -299,7 +313,6 @@ a.group_anime:hover::before {
   margin-bottom: 10px;
 }
 
-
 .advantage_heading {
   color: #333333;
   font-size: 18px;
@@ -322,7 +335,9 @@ a.group_anime:hover::before {
 }
 
 .benefits_text p {
-  font-size: 16px;
+  font-size: 20px;
+  color: #000;
+  font-family: "Calibri", sans-serif;
 }
 
 /*----  Styles Аdvantages-Home End ----*/
