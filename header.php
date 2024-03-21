@@ -112,11 +112,14 @@
 			<section class="container-fluid container-advantages">
 				<div class="__os-container__">
 					<div class="aso-content-header">
-						<h2>Бежецкий заод АСО и его преимущества</h2>
+						<h2>Бежецкий завод АСО и его преимущества</h2>
 					</div>
 					<div class="row">
-						<div class="col-md-4 advantage_headline">НАШЕ ГЛАВНОЕ ПРЕИМУЩЕСТВО - ВЕКОВЫЕ ТРАДИЦИИ КАЧЕСТВА!
+						<div class="col-md-4 advantage-right">
+							<div class="advantage_headline">НАШЕ ГЛАВНОЕ ПРЕИМУЩЕСТВО - ВЕКОВЫЕ ТРАДИЦИИ КАЧЕСТВА!
+							</div>
 						</div>
+
 						<div class="col-md-2 advantage advantage--1">
 							<div class="advantage_image">
 								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
@@ -162,6 +165,43 @@
 								базой и безукоризненными стандартами контроля производства. А словосочетание “Бежецкий
 								компрессор”, является синонимом качества и надежности.
 							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="container-fluid container-recommend">
+				<div class="__os-container__">
+					<div class="aso-content-header">
+						<h2>Рекомендуем</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-4 advantage advantage--1">
+							<div class="advantage_image">
+								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+							</div>
+							<p class="advantage_heading">Бюджетное</p>
+							<p class="advantage_text"> ценообразование</p>
+						</div>
+						<div class="col-md-4 advantage advantage--2">
+							<div class="advantage_image">
+								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+							</div>
+							<p class="advantage_heading">Бюджетное</p>
+							<p class="advantage_text"> ценообразование</p>
+						</div>
+						<div class="col-md-4 advantage advantage--3">
+							<div class="advantage_image">
+								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+							</div>
+							<p class="advantage_heading">Бюджетное</p>
+							<p class="advantage_text"> ценообразование</p>
+						</div>
+						<div class="col-md-4 advantage advantage--4">
+							<div class="advantage_image">
+								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+							</div>
+							<p class="advantage_heading">Бюджетное</p>
+							<p class="advantage_text"> ценообразование</p>
 						</div>
 					</div>
 				</div>

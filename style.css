@@ -284,6 +284,11 @@ a.group_anime:hover::before {
   align-items: center;
   justify-content: center;
   text-align: right;
+  height: 100%;
+}
+
+.advantage-right {
+  margin-right: -12px;
 }
 
 .advantage {
@@ -341,6 +346,14 @@ a.group_anime:hover::before {
 }
 
 /*----  Styles Аdvantages-Home End ----*/
+
+/*----  Styles Recommend-Block Start ----*/
+
+.container-recommend {
+  background-color: #f2f2f2;
+}
+
+/*----  Styles Recommend-Block End ----*/
 
 /*----  Styles Footer Start ----*/
 
