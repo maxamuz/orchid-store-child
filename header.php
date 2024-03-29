@@ -213,6 +213,9 @@
 									setup_postdata($post); ?>
 
 									<div class="col-4">
+										<a href="">
+											<?php the_post_thumbnail(); ?>
+										</a>
 										<h5>
 											<?php the_title(); ?>
 										</h5>
