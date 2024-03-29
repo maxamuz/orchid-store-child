@@ -1,9 +1,11 @@
 <?php
 require get_stylesheet_directory() . '/inc/custom-hooks.php';
 
-add_filter('excerpt_length', function () {
-	return 3;
-});
+function custom_excerpt_length($length)
+{
+	return 15;
+}
+add_filter('excerpt_length', 'custom_excerpt_length', 999);
 
 /* Remove Copyright Footer*/
 
