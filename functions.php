@@ -1,6 +1,10 @@
 <?php
 require get_stylesheet_directory() . '/inc/custom-hooks.php';
 
+add_filter('excerpt_length', function () {
+	return 3;
+});
+
 /* Remove Copyright Footer*/
 
 remove_action('orchid_store_footer_left', 'orchid_store_footer_left_action', 10);
@@ -50,6 +54,7 @@ function description_title_top()
 		ООО "ПНЕВМОТЕХ" - торговый представитель Бежецкого завода "АСО".
 			</div>';
 }
+
 
 
 

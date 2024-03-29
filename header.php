@@ -175,33 +175,58 @@
 						<h2>Рекомендуем</h2>
 					</div>
 					<div class="row">
-						<div class="col-md-4 advantage advantage--1">
-							<div class="advantage_image">
-								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
-							</div>
-							<p class="advantage_heading">Бюджетное</p>
-							<p class="advantage_text"> ценообразование</p>
+						<div class="col-lg-3 featured_left">
+							<img src="/wp-content/themes/aco-child/src/img/00014.56.15.jpg">
 						</div>
-						<div class="col-md-4 advantage advantage--2">
-							<div class="advantage_image">
-								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
-							</div>
-							<p class="advantage_heading">Бюджетное</p>
-							<p class="advantage_text"> ценообразование</p>
+						<div class="col-lg-9">
+							<?php echo do_shortcode("[wcps id='2647']"); ?>
 						</div>
-						<div class="col-md-4 advantage advantage--3">
-							<div class="advantage_image">
-								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
-							</div>
-							<p class="advantage_heading">Бюджетное</p>
-							<p class="advantage_text"> ценообразование</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="container-fluid container-news">
+				<div class="__os-container__">
+					<div class="aso-content-header">
+						<h2>Новости компании</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 featured_left">
+							<img src="/wp-content/themes/aco-child/src/img/brand-bej-image-02-s.jpg">
 						</div>
-						<div class="col-md-4 advantage advantage--4">
-							<div class="advantage_image">
-								<img src="/wp-content/themes/aco-child/src/img/icon-budgetary.png">
+						<div class="col-lg-9">
+							<div class="row">
+								<?php
+								// параметры по умолчанию
+								$my_posts = get_posts(
+									array(
+										'numberposts' => 3,
+										'order' => 'DESC',
+										'post_type' => 'post',
+										'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+									)
+								);
+
+								global $post;
+
+								foreach ($my_posts as $post) {
+									setup_postdata($post); ?>
+
+									<div class="col-4">
+										<h5>
+											<?php the_title(); ?>
+										</h5>
+
+										<p>
+											<?php the_excerpt(); ?>
+										</p>
+									</div>
+									<?php
+								}
+
+								wp_reset_postdata(); // сброс
+								?>
 							</div>
-							<p class="advantage_heading">Бюджетное</p>
-							<p class="advantage_text"> ценообразование</p>
 						</div>
 					</div>
 				</div>

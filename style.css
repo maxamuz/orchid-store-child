@@ -351,9 +351,29 @@ a.group_anime:hover::before {
 
 .container-recommend {
   background-color: #f2f2f2;
+  padding: 40px 0 40px 0;
+}
+
+.slick-slide {
+  background-color: #fff;
+  margin: 0 5px 0 5px;
+}
+
+.wcps-container-2647 .elements-wrapper img {
+  max-width: 100%;
+  height: auto;
+  height: 200px !important;
 }
 
 /*----  Styles Recommend-Block End ----*/
+
+/*----  Styles News-Block Start ----*/
+
+.container-news {
+  padding: 40px 0 40px 0;
+}
+
+/*----  Styles News-Block End ----*/
 
 /*----  Styles Footer Start ----*/
 
