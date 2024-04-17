@@ -179,7 +179,7 @@
 							<img src="/wp-content/themes/aco-child/src/img/00014.56.15.jpg">
 						</div>
 						<div class="col-lg-9">
-							<?php echo do_shortcode("[wcps id='2647']"); ?>
+							<?php echo do_shortcode('[products limit="3" columns="3" visibility="featured" ]'); ?>
 						</div>
 					</div>
 				</div>
@@ -213,13 +213,14 @@
 									setup_postdata($post); ?>
 
 									<div class="col-4">
-										<a href="">
+										<a href="<?php echo get_permalink(); ?>">
 											<?php the_post_thumbnail(); ?>
 										</a>
-										<h5>
-											<?php the_title(); ?>
-										</h5>
-
+										<a href="<?php echo get_permalink(); ?>">
+											<h5>
+												<?php the_title(); ?>
+											</h5>
+										</a>
 										<p>
 											<?php the_excerpt(); ?>
 										</p>

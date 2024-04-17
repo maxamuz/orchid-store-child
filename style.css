@@ -354,17 +354,6 @@ a.group_anime:hover::before {
   padding: 40px 0 40px 0;
 }
 
-.slick-slide {
-  background-color: #fff;
-  margin: 0 5px 0 5px;
-}
-
-.wcps-container-2647 .elements-wrapper img {
-  max-width: 100%;
-  height: auto;
-  height: 200px !important;
-}
-
 /*----  Styles Recommend-Block End ----*/
 
 /*----  Styles News-Block Start ----*/
@@ -372,6 +361,10 @@ a.group_anime:hover::before {
 .container-news {
   padding: 40px 0 40px 0;
 }
+
+/* .featured_left {
+  display: flex;
+} */
 
 /*----  Styles News-Block End ----*/
 
