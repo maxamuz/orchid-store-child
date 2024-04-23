@@ -354,6 +354,10 @@ a.group_anime:hover::before {
   padding: 40px 0 40px 0;
 }
 
+.woocommerce ul.products {
+  margin: 0;
+}
+
 /*----  Styles Recommend-Block End ----*/
 
 /*----  Styles News-Block Start ----*/
@@ -362,9 +366,9 @@ a.group_anime:hover::before {
   padding: 40px 0 40px 0;
 }
 
-/* .featured_left {
-  display: flex;
-} */
+.featured_left {
+  background-image: url(/wp-content/themes/aco-child/src/img/00014.56.15.jpg);
+}
 
 /*----  Styles News-Block End ----*/
 

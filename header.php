@@ -94,8 +94,7 @@
 									</div>
 								</a>
 							</div>
-							<div class="col-md-6"><a href="/product-category/porshnevye-kompressory/"
-									class="group_item group_anime">
+							<div class="col-md-6"><a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
 									<div class="group_item_name">
 										Пескоструйное оборудование
 										<p>Оптимальные и выгодные решения для очистки поверхностей любой площади</p>
@@ -176,7 +175,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-3 featured_left">
-							<img src="/wp-content/themes/aco-child/src/img/00014.56.15.jpg">
+
 						</div>
 						<div class="col-lg-9">
 							<?php echo do_shortcode('[products limit="3" columns="3" visibility="featured" ]'); ?>
@@ -225,7 +224,7 @@
 											<?php the_excerpt(); ?>
 										</p>
 									</div>
-									<?php
+								<?php
 								}
 
 								wp_reset_postdata(); // сброс
