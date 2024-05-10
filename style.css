@@ -355,7 +355,16 @@ a.group_anime:hover::before {
 }
 
 .woocommerce ul.products {
-  margin: 0;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 30px;
+  column-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  margin: 0 0 0px;
+  padding: 0;
+  position: relative;
+  row-gap: 30px;
 }
 
 /*----  Styles Recommend-Block End ----*/

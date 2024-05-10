@@ -192,7 +192,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-3 featured_left new_background">
-							<img src="/wp-content/themes/aco-child/src/img/brand-bej-image-02-s.jpg">
+
 						</div>
 						<div class="col-lg-9">
 							<div class="row">
