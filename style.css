@@ -366,8 +366,12 @@ a.group_anime:hover::before {
   padding: 40px 0 40px 0;
 }
 
-.featured_left {
+.recommend_background {
   background-image: url(/wp-content/themes/aco-child/src/img/00014.56.15.jpg);
+}
+
+.new_background {
+  background-image: url(/wp-content/themes/aco-child/src/img/brand-bej-image-02-s.jpg);
 }
 
 /*----  Styles News-Block End ----*/

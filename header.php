@@ -94,7 +94,8 @@
 									</div>
 								</a>
 							</div>
-							<div class="col-md-6"><a href="/product-category/porshnevye-kompressory/" class="group_item group_anime">
+							<div class="col-md-6"><a href="/product-category/porshnevye-kompressory/"
+									class="group_item group_anime">
 									<div class="group_item_name">
 										Пескоструйное оборудование
 										<p>Оптимальные и выгодные решения для очистки поверхностей любой площади</p>
@@ -174,7 +175,7 @@
 						<h2>Рекомендуем</h2>
 					</div>
 					<div class="row">
-						<div class="col-lg-3 featured_left">
+						<div class="col-lg-3 featured_left recommend_background">
 
 						</div>
 						<div class="col-lg-9">
@@ -190,7 +191,7 @@
 						<h2>Новости компании</h2>
 					</div>
 					<div class="row">
-						<div class="col-lg-3 featured_left">
+						<div class="col-lg-3 featured_left new_background">
 							<img src="/wp-content/themes/aco-child/src/img/brand-bej-image-02-s.jpg">
 						</div>
 						<div class="col-lg-9">
@@ -224,7 +225,7 @@
 											<?php the_excerpt(); ?>
 										</p>
 									</div>
-								<?php
+									<?php
 								}
 
 								wp_reset_postdata(); // сброс
