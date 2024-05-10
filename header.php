@@ -179,7 +179,7 @@
 
 						</div>
 						<div class="col-lg-9">
-							<div class="recommend_blok">
+							<div id="carousel_blok" class="recommend_blok owl-carousel owl-theme">
 								<?php
 								$params = array(
 									'posts_per_page' => 3,
@@ -192,8 +192,10 @@
 									<?php while ($wc_query->have_posts()): // (4)
 												$wc_query->the_post(); // (4.1) ?>
 										<div class="recommend_blok_product">
-											<?php the_post_thumbnail(); // (4.2) ?>
-											<h4><?php the_title(); // (4.2) ?></h4>
+											<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); // (4.2) ?></a>
+											<a href="<?php the_permalink() ?>">
+												<h5><?php the_title(); // (4.2) ?></h5>
+											</a>
 											<?php the_excerpt(); // (4.2) ?>
 										</div>
 									<?php endwhile; ?>

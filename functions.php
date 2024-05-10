@@ -24,6 +24,7 @@ function my_style_load()
 {
 	wp_enqueue_style('main_css', get_stylesheet_directory_uri() . '/style.css', ['orchid-store-main-style']);
 	wp_enqueue_style('bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css');
+	wp_enqueue_script('main_js', get_stylesheet_directory_uri() . '/main.js');
 }
 
 add_action('wp_enqueue_scripts', 'my_style_load');

@@ -359,6 +359,8 @@ a.group_anime:hover::before {
 }
 .recommend_blok_product {
   margin: 0 5px;
+  background-color: #fff;
+  padding: 0 10px;
 }
 
 .woocommerce ul.products {
