@@ -354,6 +354,13 @@ a.group_anime:hover::before {
   padding: 40px 0 40px 0;
 }
 
+.recommend_blok {
+  display: flex;
+}
+.recommend_blok_product {
+  margin: 0 5px;
+}
+
 .woocommerce ul.products {
   -webkit-column-gap: 10px;
   -moz-column-gap: 30px;

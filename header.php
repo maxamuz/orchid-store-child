@@ -179,59 +179,85 @@
 
 						</div>
 						<div class="col-lg-9">
-							<?php echo do_shortcode('[products limit="3" columns="3" visibility="featured" ]'); ?>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="container-fluid container-news">
-				<div class="__os-container__">
-					<div class="aso-content-header">
-						<h2>Новости компании</h2>
-					</div>
-					<div class="row">
-						<div class="col-lg-3 featured_left new_background">
-
-						</div>
-						<div class="col-lg-9">
-							<div class="row">
+							<div class="recommend_blok">
 								<?php
-								// параметры по умолчанию
-								$my_posts = get_posts(
-									array(
-										'numberposts' => 3,
-										'order' => 'DESC',
-										'post_type' => 'post',
-										'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
-									)
-								);
-
-								global $post;
-
-								foreach ($my_posts as $post) {
-									setup_postdata($post); ?>
-
-									<div class="col-4">
-										<a href="<?php echo get_permalink(); ?>">
-											<?php the_post_thumbnail(); ?>
-										</a>
-										<a href="<?php echo get_permalink(); ?>">
-											<h5>
-												<?php the_title(); ?>
-											</h5>
-										</a>
-										<p>
-											<?php the_excerpt(); ?>
-										</p>
-									</div>
-									<?php
-								}
-
-								wp_reset_postdata(); // сброс
+								$params = array(
+									'posts_per_page' => 3,
+									'post_type' => 'product',
+									'product_cat' => 'vintovye-kompressory'
+								); // (1)
+								$wc_query = new WP_Query($params); // (2)
 								?>
+								<?php if ($wc_query->have_posts()): // (3) ?>
+									<?php while ($wc_query->have_posts()): // (4)
+												$wc_query->the_post(); // (4.1) ?>
+										<div class="recommend_blok_product">
+											<?php the_post_thumbnail(); // (4.2) ?>
+											<h4><?php the_title(); // (4.2) ?></h4>
+											<?php the_excerpt(); // (4.2) ?>
+										</div>
+									<?php endwhile; ?>
+									<?php wp_reset_postdata(); // (5) ?>
+								<?php else: ?>
+									<p>
+										<?php _e('No Products'); // (6) ?>
+									</p>
+								<?php endif; ?>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+		</div>
+	</div>
+	</section>
+
+	<section class="container-fluid container-news">
+		<div class="__os-container__">
+			<div class="aso-content-header">
+				<h2>Новости компании</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 featured_left new_background">
+
+				</div>
+				<div class="col-lg-9">
+					<div class="row">
+						<?php
+						// параметры по умолчанию
+						$my_posts = get_posts(
+							array(
+								'numberposts' => 3,
+								'order' => 'DESC',
+								'post_type' => 'post',
+								'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+							)
+						);
+
+						global $post;
+
+						foreach ($my_posts as $post) {
+							setup_postdata($post); ?>
+
+							<div class="col-4">
+								<a href="<?php echo get_permalink(); ?>">
+									<?php the_post_thumbnail(); ?>
+								</a>
+								<a href="<?php echo get_permalink(); ?>">
+									<h5>
+										<?php the_title(); ?>
+									</h5>
+								</a>
+								<p>
+									<?php the_excerpt(); ?>
+								</p>
+							</div>
+							<?php
+						}
+
+						wp_reset_postdata(); // сброс
+						?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
